@@ -1,0 +1,23 @@
+{
+	"layout": {
+		"template": "venue"
+	},
+	"data": {
+		"title": "The Craft Beer Co. - Lunch Places",
+		"venue": {
+			"name": "The Craft Beer Co.",
+			"slug": "the-craft-beer-co",
+			"url": "http://www.thecraftbeerco.com",
+			"location": {
+				"address": [
+					"55 White Lion St",
+					"Islington",
+					"Greater London",
+					"N1 9PP"
+				],
+				"lat": "51.532695303009504",
+				"lng": "-0.11052846908569336"
+			}
+		}
+	}
+}
