@@ -1,0 +1,21 @@
+{>layout/}
+
+{<content}
+
+	{#data.venue}
+		{?name}
+			<h1>{name}</h1>
+		{/name}
+
+		<address>
+			{#location.address}	
+				{.}<br>
+			{/location.address}
+		</address>
+
+		{?url}
+			<p><a href="{url}">{url}</a></p>
+		{/url}
+	{/data.venue}
+
+{/content}
