@@ -21,13 +21,23 @@ example-backend-ruby-sinatra
 ```
 
 
-# Structure
+## README
+
+The application must contain a `README.md` file. [Use the template provided](data/README-TEMPLATE.md).
+
+
+## Structure
 
 You should use a directory structure that makes sense in the language/framework context you have decided on, however you must include a `Procfile` which defines a single `web` process that runs the application. E.g:
 
 ```
 web: node .
 ```
+
+
+## Configuration
+
+The application must default to running on port `5000`, but be configurable with the `PORT` environment variable.
 
 
 ## Data
