@@ -34,6 +34,12 @@ Start the application on a different port:
 PORT=1234 npm start
 ```
 
+Start the application with [Foreman](https://github.com/ddollar/foreman):
+
+```
+foreman start
+```
+
 
 ## License
 
